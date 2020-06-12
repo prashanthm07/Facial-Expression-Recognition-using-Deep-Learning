@@ -1,0 +1,59 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    animation: bgcolor infinite 20s;
+}
+
+@keyframes bgcolor{
+    0%
+    {
+        background: #ffffff;
+    }
+    20%
+    {
+        background: #cd84f1;
+    }
+    40%
+    {
+        background: #ffcccc;
+    }
+    60%
+    {
+        background: #ff4d4d;
+    }
+    80%
+    {
+        background:#ffaf40;
+    }
+    100%
+    {
+        background:#FD7272 ;
+    }
+
+}
+
+.footer{
+    font-size: 14px;
+    padding: 20px;
+    flex-shrink: 0;
+    position: relative;
+    background: linear-gradient(45deg, #ffffff, #ffffff, #f9f9f9, #eeeeee, #e0e4e1, #d7e1ec);
+    background-size: 500% 500%;
+    animation: change-gradient 10s ease-in-out infinite;
+}
+
+.contact-icon{
+    color: #000000;
+    padding: 7px;
+}
+
+
+.contact-icon:hover{
+    color: #8c8c8c;
+}
+
+.footer-description{
+    margin: 0;
+    font-size: 12px;
+}

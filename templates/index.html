@@ -1,8 +1,29 @@
 <html>
   <head>
     <title>Face expression recognition</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
   </head>
-  <body>
-    <img id="bg" width=800px height=640px src="{{ url_for('video_feed') }}">
+  <center>
+      <body>
+        <h2>Facial Expression Recognition using Convolutional Neural Networks</h2>
+          <p>A Deep Learning Web App, Built with Flask, Deployed using Heroku.</p>
+        <br>
+        <br>
+    <img id="bg" width=400px height=400px src="{{ url_for('video_feed') }}">
+    <br>
+    <br>
+    <div class='footer'>
+            <div class="contact">
+                <a target="_blank" href="https://github.com/mangipudiprashanth7/Facial-Expression-Recognition-using-Deep-Learning"><i class="fab fa-github fa-lg contact-icon"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/mangipudiprashanthsarma/"><i class="fab fa-linkedin fa-lg contact-icon"></i></a>
+            </div>
+            <p class='footer-description'>Made with ❤️ by Mangipudi Prashanth Sarma.</p>
+    </div>
   </body>
+
+
+  </center>
+
+
 </html>
