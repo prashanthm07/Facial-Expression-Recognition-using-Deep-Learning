@@ -32,28 +32,3 @@ body
     }
 
 }
-
-.footer{
-    font-size: 14px;
-    padding: 20px;
-    flex-shrink: 0;
-    position: relative;
-    background: linear-gradient(45deg, #ffffff, #ffffff, #f9f9f9, #eeeeee, #e0e4e1, #d7e1ec);
-    background-size: 500% 500%;
-    animation: change-gradient 10s ease-in-out infinite;
-}
-
-.contact-icon{
-    color: #000000;
-    padding: 7px;
-}
-
-
-.contact-icon:hover{
-    color: #8c8c8c;
-}
-
-.footer-description{
-    margin: 0;
-    font-size: 12px;
-}
