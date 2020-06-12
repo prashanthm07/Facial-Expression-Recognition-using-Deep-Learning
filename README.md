@@ -14,10 +14,30 @@
 * Tensorflow>=2.1
 * opencv>=4.0.1
 * keras>=2.3.1
-#### Note: You can also create virtual environment using python3.7 and the use requirements.txt file as follows
-`pip install -r requirements.txt`
+#### Installation of dependencies using Anaconda distribution
+`conda create -n faceexpressions python=3.7 -y`
 
-* Once your dependencies installation is done, you can run the notebook files on jupyter notebook(if you are using Anaconda). 
+`conda activate faceexpressions`
+
+`pip install ipykernel`
+
+`python -m ipykernel install --user --name faceexpressions --display-name "faceexpressions"`
+
+If you have want to install Tensorflow GPU then use below command
+
+`conda install tensorflow-gpu==2.0.0`
+
+If you have want to install Tensorflow CPU then use below command
+
+`conda install tensorflow==2.0.0`
+
+`pip install keras opencv-contrib-python pandas numpy matplotlib scikit-learn`
+
+`conda install jupyter`
+
+* Once your dependencies installation is done, you can run the notebook files on jupyter notebook(if you are using Anaconda) using below command. 
+
+`jupyter notebook`
 
 ### Real-Time Testing of our model:
 * This can be done just by running **RealtimePredictions.py** 
