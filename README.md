@@ -33,11 +33,15 @@ If you have want to install Tensorflow CPU then use below command
 
 `conda install tensorflow==2.0.0`
 
+The below pip command installs keras, opencv, pandas, matplotlib, scikit-learn
+
 `pip install keras opencv-contrib-python pandas numpy matplotlib scikit-learn`
+
+The below command install jupyter notebook on Anaconda Distribution
 
 `conda install jupyter`
 
-* Once your dependencies installation is done, you can run the notebook files on jupyter notebook(if you are using Anaconda) using below command. 
+Once your dependencies installation is done, you can run the notebook files on jupyter notebook(if you are using Anaconda) using below command. 
 
 `jupyter notebook`
 
