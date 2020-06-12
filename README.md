@@ -1,7 +1,9 @@
-![Kaggle](https://img.shields.io/badge/Dataset-Kaggle-blue.svg) ![Python 3.6](https://img.shields.io/badge/Python-3.7-brightgreen.svg)![Tensorflow](https://aleen42.github.io/badges/src/tensorflow.svg)![stackoverflow](https://aleen42.github.io/badges/src/stackoverflow.svg)![Github](https://aleen42.github.io/badges/src/github.svg)
+![Kaggle](https://img.shields.io/badge/Dataset-Kaggle-blue.svg) ![Python 3.7](https://img.shields.io/badge/Python-3.7-brightgreen.svg)![Tensorflow](https://aleen42.github.io/badges/src/tensorflow.svg)![stackoverflow](https://aleen42.github.io/badges/src/stackoverflow.svg)![Github](https://aleen42.github.io/badges/src/github.svg)
 
 ## Facial Expressions Recognition using Convolutional Neural Networks
-
+### Branches:
+- master : Contains files related to training the model and realtime testing. 
+- deployment : Contains files related to deployment of the deep learning model on web using **flask** micro framework.  
 
 ### Description:
 * Facial Expression Detection (csv) - This notebook contains the implementation of Convolutional Neural Networks using fer2013.csv dataset directly. 
@@ -45,7 +47,6 @@ If you have want to install Tensorflow CPU then use below command
 `python RealtimePredictions.py` 
 
 * You'll see a window pop up and you can find the predictions on your screen. (See the demo file below)
-
 
 
 
