@@ -2,10 +2,11 @@
 
 ## Facial Expressions Recognition using Convolutional Neural Networks
 ### Branches:
-- master : Contains files related to training the model and realtime testing. 
-- deployment : Contains files related to deployment of the deep learning model on web using **flask** micro framework.  
+- **master** : Contains files related to training the model and realtime testing. 
+- **deployment** : Contains files related to deployment of the deep learning model on web using **flask** micro framework.  
 
 ### Description:
+* fer2013.csv.zip - This is the dataset I've used. Do extract that on to your local system.
 * Facial Expression Detection (csv) - This notebook contains the implementation of Convolutional Neural Networks using fer2013.csv dataset directly. 
 * Facial Expression Detection (dir) - This notebook contains the implementation of Convolutional Neural Networks using fer2013.csv dataset using **Datagenerator Class of Keras** after splitting the csv dataset to directories. The code for converting the fer2013.csv file to directories is in **convertodir.py** 
 * model_weights.h5 & model.json - These weights file and architecture file as json are generated after training the CNN model in **Facial Expression Detection (dir)** notebook. 
