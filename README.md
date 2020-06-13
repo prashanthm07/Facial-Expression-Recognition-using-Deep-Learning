@@ -18,38 +18,43 @@
 * opencv>=4.0.1
 * keras>=2.3.1
 #### Installation of dependencies using Anaconda distribution
-`conda create -n faceexpressions python=3.7 -y`
+- Create a new virtual environment using conda 
 
-`conda activate faceexpressions`
+  `conda create -n faceexpressions python=3.7 -y`
+- Activating our new virtual environment
+ 
+  `conda activate faceexpressions`
+- Installing necessary libraries
+ 
+  `pip install ipykernel`
+- I'd recommend you to use the display name same as environment name
+ 
+  `python -m ipykernel install --user --name faceexpressions --display-name "faceexpressions"`
 
-`pip install ipykernel`
+- If you have want to install Tensorflow GPU then use below command
 
-`python -m ipykernel install --user --name faceexpressions --display-name "faceexpressions"`
+  `conda install tensorflow-gpu==2.0.0`
 
-If you have want to install Tensorflow GPU then use below command
+- If you have want to install Tensorflow CPU then use below command
 
-`conda install tensorflow-gpu==2.0.0`
+  `conda install tensorflow==2.0.0`
 
-If you have want to install Tensorflow CPU then use below command
+- The below pip command installs keras, opencv, pandas, matplotlib, scikit-learn
 
-`conda install tensorflow==2.0.0`
+  `pip install keras opencv-contrib-python pandas numpy matplotlib scikit-learn`
 
-The below pip command installs keras, opencv, pandas, matplotlib, scikit-learn
+- The below command install jupyter notebook on Anaconda Distribution
 
-`pip install keras opencv-contrib-python pandas numpy matplotlib scikit-learn`
+  `conda install jupyter`
 
-The below command install jupyter notebook on Anaconda Distribution
+- Once your dependencies installation is done, you can run the notebook files on jupyter notebook(if you are using Anaconda) using below command. 
 
-`conda install jupyter`
-
-Once your dependencies installation is done, you can run the notebook files on jupyter notebook(if you are using Anaconda) using below command. 
-
-`jupyter notebook`
+  `jupyter notebook`
 
 ### Real-Time Testing of our model:
 * This can be done just by running **RealtimePredictions.py** 
 
-`python RealtimePredictions.py` 
+  `python RealtimePredictions.py` 
 
 * You'll see a window pop up and you can find the predictions on your screen(I've cropped the window). (See the demo file below)
 ![GIF](https://github.com/mangipudiprashanth7/Facial-Expression-Recognition-using-Deep-Learning/blob/master/demo.gif)
@@ -60,4 +65,4 @@ Once your dependencies installation is done, you can run the notebook files on j
 - The accuracy can still be improved by tuning the hyperparameters of the model. We can even make this more accurate by also using Transfer Learning. 
  
  
- Badges Copyright-[MIT © aleen42](https://github.com/aleen42/badges)
+ ###### Badges Copyright-[MIT © aleen42](https://github.com/aleen42/badges)
