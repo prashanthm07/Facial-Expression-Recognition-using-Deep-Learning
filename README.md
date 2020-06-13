@@ -15,6 +15,9 @@
 
 - You'd see something like this in your terminal 
 
-- Now, in your browser open the url .....
+![Terminal](https://github.com/mangipudiprashanth7/Facial-Expression-Recognition-using-Deep-Learning/blob/deployment/terminal.png)
+- Now, in your browser open the url **http://0.0.0.0:5000/** or **localhost:5000**
 
 - Below is the demo of the app that you'd see.
+
+![OUTPUT](https://github.com/mangipudiprashanth7/Facial-Expression-Recognition-using-Deep-Learning/blob/deployment/webapp-demo.gif)
