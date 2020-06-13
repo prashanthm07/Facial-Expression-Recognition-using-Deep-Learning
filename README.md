@@ -55,4 +55,9 @@ Once your dependencies installation is done, you can run the notebook files on j
 ![GIF](https://github.com/mangipudiprashanth7/Facial-Expression-Recognition-using-Deep-Learning/blob/master/demo.gif)
 
 
+### Result :
+- The architechture that I've built is very pretty simple, and I was able to get an validation accuracy of around 60.25 and training accuracy around 85.25. 
+- The accuracy can still be improved by tuning the hyperparameters of the model. We can even make this more accurate by also using Transfer Learning. 
+ 
+ 
  Badges Copyright-[MIT © aleen42](https://github.com/aleen42/badges)
