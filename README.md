@@ -51,8 +51,8 @@ Once your dependencies installation is done, you can run the notebook files on j
 
 `python RealtimePredictions.py` 
 
-* You'll see a window pop up and you can find the predictions on your screen. (See the demo file below)
-
+* You'll see a window pop up and you can find the predictions on your screen(I've cropped the window). (See the demo file below)
+![GIF](https://github.com/mangipudiprashanth7/Facial-Expression-Recognition-using-Deep-Learning/blob/master/demo.gif)
 
 
  Badges Copyright-[MIT © aleen42](https://github.com/aleen42/badges)
