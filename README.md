@@ -3,8 +3,8 @@
 ## Facial Expressions Recognition using Convolutional Neural Networks
 ### Branches:
 - **master** : Contains files related to training the model and realtime testing. 
-- **deployment** : Contains files related to deployment of the deep learning model on web using **flask** micro framework.  
-
+- **[deployment](https://github.com/mangipudiprashanth7/Facial-Expression-Recognition-using-Deep-Learning/tree/deployment)** : Contains files related to deployment of the deep learning model on web using **flask** micro framework.
+- Either clone the repo or download the Zip file based on your need, and start working.
 ### Description:
 * fer2013.csv.zip - This is the dataset I've used. Do extract that on to your local system.
 * Facial Expression Detection (csv) - This notebook contains the implementation of Convolutional Neural Networks using fer2013.csv dataset directly. 
