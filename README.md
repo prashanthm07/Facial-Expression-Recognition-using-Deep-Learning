@@ -20,43 +20,64 @@
 #### Installation of dependencies using Anaconda distribution
 - Create a new virtual environment using conda 
 
-  `conda create -n faceexpressions python=3.7 -y`
+  ```PowerShell
+  conda create -n faceexpressions python=3.7 -y
+  ```
 - Activating our new virtual environment
  
-  `conda activate faceexpressions`
+  ```PowerShell
+  conda activate faceexpressions
+  ```
 - Installing necessary libraries
  
-  `pip install ipykernel`
+  ```PowerShell
+  pip install ipykernel
+  ```
 - I'd recommend you to use the display name same as environment name
  
-  `python -m ipykernel install --user --name faceexpressions --display-name "faceexpressions"`
+  ```PowerShell
+  python -m ipykernel install --user --name faceexpressions --display-name "faceexpressions"
+  ```
 
 - If you have want to install Tensorflow GPU then use below command
 
-  `conda install tensorflow-gpu==2.0.0`
+  ```PowerShell
+  conda install tensorflow-gpu==2.0.0
+  ```
 
 - If you have want to install Tensorflow CPU then use below command
 
-  `conda install tensorflow==2.0.0`
+  ```PowerShell
+  conda install tensorflow==2.0.0
+  ```
 
 - The below pip command installs keras, opencv, pandas, matplotlib, scikit-learn
 
-  `pip install keras opencv-contrib-python pandas numpy matplotlib scikit-learn`
+  ```PowerShell
+  pip install keras opencv-contrib-python pandas numpy matplotlib scikit-learn
+  ```
 
 - The below command install jupyter notebook on Anaconda Distribution
 
-  `conda install jupyter`
+  ```PowerShell
+  conda install jupyter
+  ```
 
 - Once your dependencies installation is done, you can run the notebook files on jupyter notebook(if you are using Anaconda) using below command. 
 
-  `jupyter notebook`
+  ```PowerShell
+  jupyter notebook
+  ```
 
 ### Real-Time Testing of our model:
 * This can be done just by running **RealtimePredictions.py** 
 
-  `python RealtimePredictions.py` 
+  ```PowerShell
+  python RealtimePredictions.py
+  ```
 
 * You'll see a window pop up and you can find the predictions on your screen(I've cropped the window). (See the demo file below)
+
 ![GIF](https://github.com/mangipudiprashanth7/Facial-Expression-Recognition-using-Deep-Learning/blob/master/demo.gif)
 
 
