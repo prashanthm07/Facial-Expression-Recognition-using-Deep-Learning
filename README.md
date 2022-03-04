@@ -9,7 +9,7 @@
 - **haarcascade_frontalface_default.xml :** - This xml file is used to detect faces in the given frame. This is a [haar cascade](https://github.com/opencv/opencv/tree/master/data/haarcascades) built by Viola Jones.
 
 ### Usage:
-- I'd always recommend you to create different virtual environment for deployment and development. 
+- I'd always recommend you to create different virtual environment for deployment and development. as it helps. 
 - Create the new conda virtual environment :
 - `conda create -n faceexpressiondeployment python=3.7 -y`
 - Activate the created venv :
